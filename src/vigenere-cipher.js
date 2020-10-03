@@ -1,3 +1,4 @@
+
 class VigenereCipheringMachine {
     constructor(mode = true) {
         this.mode = mode;

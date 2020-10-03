@@ -1,3 +1,4 @@
+
 module.exports = function repeater(str, options) {
   const {
     repeatTimes,
@@ -43,3 +44,4 @@ module.exports = function repeater(str, options) {
   }
   return result.slice(0, -(separator.length));
 }
+

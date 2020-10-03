@@ -1,3 +1,4 @@
+
 module.exports = function getSeason(date) {
   //Errors
   if (!date) {
@@ -11,5 +12,4 @@ module.exports = function getSeason(date) {
   let month = date.getMonth();
   const season = ['winter', 'winter', 'spring', 'spring', 'spring', 'summer', 'summer', 'summer', 'autumn', 'autumn', 'autumn','winter'];
   return season[month];
-
 };
